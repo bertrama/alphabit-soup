@@ -38,11 +38,11 @@ ActiveRecord::Schema.define(version: 20171210211436) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "samples_groups", id: false, force: :cascade do |t|
+  create_table "groups_samples", id: false, force: :cascade do |t|
     t.integer "sample_id"
     t.integer "group_id"
-    t.index ["group_id"], name: "index_samples_groups_on_group_id"
-    t.index ["sample_id"], name: "index_samples_groups_on_sample_id"
+    t.index ["group_id"], name: "index_groups_samples_on_group_id"
+    t.index ["sample_id"], name: "index_groups_samples_on_sample_id"
   end
 
 end
