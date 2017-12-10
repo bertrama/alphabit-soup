@@ -1,24 +1,16 @@
-# README
+# Alphabit Soup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+|-> Sample
+    |-> Identifier
+    |-> Label
+    |-> Title
+    |-> Author
+    |-> Source
+    |-> Body
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+|-> Collection
+    |-> Title
+    |-> Description
+    |-> Group 1..N
+        |-> Label
+        |-> Samples
